@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+*{
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+a { color: inherit; } 
+
+body{
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background: black;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+#logo img{
+    width: 90px;
+    height: 90px;
+    margin: 5px 10px;
+    float: left;
+}
+.navegacao{
+    text-align: center;
+    
+}
+.navegacao ul{
+    margin: auto;
+    padding: 28px 70px 0 0; 
+}
+.navegacao ul li{   
+    display: inline-block;
+    margin:0 50px;
+   box-sizing: border-box;
+   
+}
+
+.navegacao a{
+    padding: 10px 0;
+    color: aliceblue;
+    font-size: 28px; 
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.navegacao a:hover{
+    background-color: aliceblue;
+    color: rgb(197, 42, 42);
+}
+
+/* Fim da barra de navegação */
+
+/* Começo do corpo do site */
+.container{
+    width: 85%;
+    height: 1000px;
+    margin: 10px auto;
+    /* background: rgb(163, 162, 162); */
+}
+
+.news-principal{
+    width: 100%;
+    height: 500px;
+    margin: 30px 0;
+    text-align: center;
+}
+.central{
+    background: black;
+    border-radius: 10px;
+    padding: 0 48px 24px 24px;
+    box-sizing: border-box;
+}
+
+.central h2{
+    color: aliceblue;
+    font-size: 36px;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+.central p{
+    font-size: 16px;
+    color: aliceblue;
+    text-align: left;
+    margin: 0;
+}
+.news {
+    height: 48%;
+    width: 49%;
+    border: 1px solid black;
+}
+.box-invi{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.box-invi2{
+    width: 100%;
+    height: 25%;
+    /* display: flex; */
+}
+.modal{
+    background-color: rgb(235, 98, 98);
+    width: 50px;
+    height: 30px; 
+    border-radius: 0 0 5px 5px;
+    
+}
+/* QUANDO RESOLVER A QUESTÃO DE MODAL AUMENTAR SOZINHO DEPENDENDO DO QUE FOR ESCRITO , APAGAR ESSA CLASS*/
+.modal-valorant{
+    background-color: rgb(235, 98, 98);
+    width: 100px;
+    height: 30px;
+    border-radius: 0 0 5px 5px;
+}
+.modal-valorant h5{
+    font-size: 20px;
+    margin: 0;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.modal h5{
+    font-size: 20px;
+    margin: 0;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.not01{
+    width: 49%;
+    height: 500px;
+    border: 1px solid black;   
+    float: left;
+    display:inline-block;
+    background-image: url(/images/final-do-cblol-no-maracanãzinho.jpg);
+
+}
+.not02{
+    margin-bottom: 18px;
+    float: right;
+    display: inline-block;
+}
+.not03{
+    float: right;
+}
+
+
+/* Publicidade */
+.adsense{
+    text-align: center;
+}
+.contr{
+    width: 70%;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.adsense h4{
+    color: aliceblue;
+     
+}
+.adquadrado{
+    height: 300px;
+    width: 300px;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+.adquadrado h4{
+    color: black;
+}
+/* Fim da publicidade */
+
+
+
+.subconteudos{
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+    border-top: 1px solid;
+}
+
+.noticias{
+    width: 68%;
+    height: auto;
+    float: left;
+    /* border: 1px solid black; */
+    border-right: 1px black;
+    background: rgb(240, 240, 240);
+}
+.subnews{
+    width: 96%;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px   ;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    
+    /* border: 1px solid black; */
+    background: rgb(224, 224, 224);
+}
+.imagem{
+    height: 100%;
+    width: 40%;
+    float: left;
+    margin: auto;
+    /* overflow: hidden; */
+    align-self: flex-start;
+
+}
+.imagem img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.texto-noticia{
+    height: 100%;
+    width: 50%;
+    float: right;
+    margin: 20px 0;
+}
+.texto-noticia h3 p{
+    float: right;
+    margin: auto;
+}
+.texto-noticia h3{
+    font-size: 32px;
+    margin: 0;
+    
+    
+}
+.texto-noticia h3 a{
+    text-decoration: none;
+}
+.texto-noticia p{
+    font-size: 16px;
+    height: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.direita{
+    width: 30%;
+    height: auto;
+    float: right;
+    /* border: 1px solid black; */
+    
+    margin-top: 10px;
+}
+
+.streams{
+    width: 92%;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.novos-eventos{
+    width: 92%;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  /* <!-- Inicio do Carrosel com as 3 principais e recentes noticias -->
+  <section class="news-principal">
+      <h2>Titulo principal chamativo</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+  </section>
+  <!-- Fim do Carrosel com as 3 principais e recentes noticias -->
+
+
+  <!-- Inicio da area do principal adsense do site -->
+  <div class="adsense-principal"></div>
+
+  <!-- Fim da area do principal adsense do site  -->
+
+
+  <!-- Inicio do menu -->
+  <nav class="navbar">
+      <a href="">Tabelas</a>
+      <a href="">Loja</a>
+      <img src="" alt="">
+      <a href="">Cantos</a>
+      <a href="">Contato</a>
+  </nav>
+
+  <!-- Fim do menu --> */
+  }
+
+
