@@ -35,7 +35,7 @@ body{
     display: inline-block;
     margin:0 50px;
    box-sizing: border-box;
-   
+   border-radius: 10px;
 }
 
 .navegacao a{
@@ -43,7 +43,7 @@ body{
     color: aliceblue;
     font-size: 28px; 
     box-sizing: border-box;
-    border-radius: 10px;
+    
 }
 .navegacao a:hover{
     background-color: aliceblue;
@@ -88,7 +88,11 @@ body{
 .news {
     height: 48%;
     width: 49%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+.efeito :hover{
+    transition: linear;
+    background-color: rgba(0, 0,0, 0.2);
 }
 .box-invi{
     width: 100%;
@@ -133,19 +137,22 @@ body{
 .not01{
     width: 49%;
     height: 500px;
-    border: 1px solid black;   
+    /* border: 1px solid black;    */
     float: left;
-    display:inline-block;
-    background-image: url(/images/final-do-cblol-no-maracanãzinho.jpg);
-
+    background-image: url(../images/final-do-cblol-no-maracanãzinho.jpg);
+    background-size: cover;
 }
 .not02{
+    background-image: url(../images/Torcida\ pain\ 3.jpg);
+    background-size: cover;
+
     margin-bottom: 18px;
     float: right;
-    display: inline-block;
 }
 .not03{
     float: right;
+    background-image: url(../images/cblol_formato_split2.jpg);
+    background-size: cover;
 }
 
 
@@ -222,6 +229,7 @@ body{
     width: 50%;
     float: right;
     margin: 20px 0;
+    
 }
 .texto-noticia h3 p{
     float: right;
@@ -252,23 +260,87 @@ body{
     
     margin-top: 10px;
 }
-
-.streams{
+/* ESTILOS PARA PARTE DIREITA */
+.model-right{
     width: 92%;
     height: 500px;
     border: 1px solid black;
+    border-radius: 10px;
     margin: auto;
     margin-bottom: 20px;
+    /* background-color: black; */
+}
+/* ESTILO PARA TABELA */
+#tabela{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    
+}
+#tabela thead tr{
+    color: rgb(207, 45, 45);
+    text-align: center;
     background-color: black;
+    border-radius: 10px;
+}
+#tabela th,
+#tabela td {
+  padding: 5px;
+  width: 20%;
+  text-align: center;
+}
+#tabela td{
+    font-size: 20px;
+}
+.times{
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pain{
+    background-image: url(../images/Times/logo_paiN.png);
+}
+.fla{
+    background-image: url(../images/Times/logo_flamengo.png);
+}
+.santos{
+    background-image: url(../images/Times/logo_santos.png);
+}
+.kabum{
+    background-image: url(../images/Times/logo_kabum.png);
+}
+.prg{
+    background-image: url(../images/Times/logo_prg.png);
+}
+.furia{
+    background-image: url(../images/Times/logo_furia.png);
+}
+.keyd{
+    background-image: url(../images/Times/logo_keyd.png);
+}
+.intz{
+    background-image: url(../images/Times/logo_intz.png);
+}
+
+
+#tabela tbody tr{
+    border-bottom: 1px black;
+    padding: 2px;
+}
+
+
+
+/* FIM DO ESTILO PARA TABELA */
+
+
+/* Começo estilo streams */
+.streams{
+    
 }
 
 .novos-eventos{
-    width: 92%;
-    height: 500px;
-    border: 1px solid black;
-    margin: auto;
-    margin-bottom: 20px;
-    background-color: black;
+    
 }
 
 
