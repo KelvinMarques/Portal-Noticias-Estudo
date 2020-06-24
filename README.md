@@ -6,7 +6,7 @@ Projeto de um portal de noticias da torcida "Os Tradicionais" focado no time Pai
 
 ## Imagens do site (Site imcompleto)
 
-![Screen - News](https://user-images.githubusercontent.com/46509359/82846384-fd5e1e00-9ebe-11ea-9ad1-bdec9967190b.png)
-![Screen - Publicidades (AD's)](https://user-images.githubusercontent.com/46509359/82846376-f505e300-9ebe-11ea-8143-70379764c801.png)
-![Screen - SubNews](https://user-images.githubusercontent.com/46509359/82846382-f9320080-9ebe-11ea-8c39-54203e9b58ff.png)
+![Screen - News](https://user-images.githubusercontent.com/46509359/85628116-f5240a80-b645-11ea-8bcf-1dcc40d6384f.png
+![Screen - Publicidades (AD's)](https://user-images.githubusercontent.com/46509359/85628125-fa815500-b645-11ea-8f1c-e0ace4c6344a.png)
+![Screen - SubNews](https://user-images.githubusercontent.com/46509359/85628131-fd7c4580-b645-11ea-90a0-3ca2bbdaf705.png)
 
